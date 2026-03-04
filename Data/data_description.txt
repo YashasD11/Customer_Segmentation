@@ -1,0 +1,50 @@
+Dataset Name: Mall Customers Dataset
+
+Description:
+This dataset contains customer demographic and spending behavior information collected from a shopping mall. 
+It is commonly used for customer segmentation and clustering analysis in data science and machine learning projects.
+
+The dataset consists of 200 records and 5 attributes describing customer characteristics such as gender, age, 
+income level, and spending behavior.
+
+Number of Records: 200
+Number of Features: 5
+
+Column Descriptions:
+
+1. CustomerID
+   - Description: Unique identifier assigned to each customer.
+   - Data Type: Integer
+   - Example: 1, 2, 3
+
+2. Gender
+   - Description: Gender of the customer.
+   - Data Type: Categorical
+   - Possible Values: Male, Female
+
+3. Age
+   - Description: Age of the customer in years.
+   - Data Type: Integer
+   - Example: 19, 35, 50
+
+4. Annual Income (k$)
+   - Description: Annual income of the customer measured in thousands of dollars.
+   - Data Type: Integer
+   - Example: 15 means $15,000 annual income.
+
+5. Spending Score (1-100)
+   - Description: A score assigned by the mall based on customer spending behavior and purchasing patterns.
+   - Data Type: Integer
+   - Range: 1 to 100
+   - Higher Score: Customer spends more in the mall.
+
+Possible Use Cases:
+- Customer segmentation using clustering algorithms
+- Market basket analysis
+- Targeted marketing strategies
+- Customer behavior analysis
+
+Common Machine Learning Applications:
+- K-Means Clustering
+- Hierarchical Clustering
+- Customer Segmentation Models
